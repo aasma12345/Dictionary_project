@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Dictionary API</title>
+        <style>
+            #search-input{
+            border:1px solid black;
+            height: 50px;
+            width:200px;
+            margin-left:650px;
+            margin-right: auto;
+            }
+            button{
+            height: 50px;
+            width:100px;
+            }
+            h1{
+            text-align: center;
+            }
+
+            #result{
+            width:500px;
+            margin-left: auto;
+            margin-right: auto;
+            }
+
+            .defi{
+            color:rgb(243, 85, 112);
+            font-size: 20px;
+            }
+
+            .parts-of-speech{
+            color:green;
+            font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>DEFINATIONS AND PART OF SPEACH</h1>
+        <div id="search-bar">
+            <input type="text" id="search-input">
+            <button onclick="search()">Search</button>
+        </div>
+        <div id="result"></div>
+
+        
+    <script src="Dictionary.js"></script>
+    </body>
+
+</html>
